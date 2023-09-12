@@ -1,22 +1,20 @@
 import type { Meta, StoryObj } from "@storybook/vue3";
 
-import { Button } from "../components";
+import { Checkbox } from "../components";
 
 // More on how to set up stories at: https://storybook.js.org/docs/vue/writing-stories/introduction
 const meta = {
-  title: "Button",
-  component: Button,
+  title: "Checkbox",
+  component: Checkbox,
   // This component will have an automatically generated docsPage entry: https://storybook.js.org/docs/vue/writing-docs/autodocs
   tags: ["autodocs"],
   argTypes: {
-    type: { control: "select", options: ["primary", "ghost", "dashed"] },
     disabled: { control: "boolean", options: [false, true] },
-    danger: { control: "boolean", options: [false, true] },
-    size: { control: "select", options: ["large", "middle", "small"] },
+    checked: { control: "boolean", options: [false, true] },
     onClick: { action: "clicked" },
   },
-  args: { disabled: false, danger: false, size: "middle" }, // default value
-} satisfies Meta<typeof Button>;
+  args: { disabled: false, checked: false }, // default value
+} satisfies Meta<typeof Checkbox>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;
@@ -25,15 +23,12 @@ type Story = StoryObj<typeof meta>;
  * See https://storybook.js.org/docs/vue/api/csf
  * to learn how to use render functions.
  */
-export const Primary: Story = {
+export const Default: Story = {
   render: (args) => ({
-    components: { Button },
+    components: { Checkbox },
     setup() {
       return { args };
     },
-    template: '<Button v-bind="args">button</Button>',
+    template: '<Checkbox v-bind="args">체크해주세요</Checkbox>',
   }),
-  args: {
-    type: "primary",
-  },
 };
