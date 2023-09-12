@@ -10,5 +10,8 @@
     "eslint": "^8.49.0",
     "prettier": "^3.0.3",
     "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@vue/compiler-core": "^3.3.4"
   }
 }

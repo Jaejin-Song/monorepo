@@ -7,16 +7,32 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
     "ant-design-vue": "^4.0.3",
     "vue": "^3.3.4"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.22.15",
+    "@babel/preset-typescript": "^7.22.15",
+    "@storybook/addon-essentials": "7.4.1",
+    "@storybook/addon-interactions": "7.4.1",
+    "@storybook/addon-links": "7.4.1",
+    "@storybook/blocks": "7.4.1",
+    "@storybook/testing-library": "0.2.0",
+    "@storybook/vue3": "7.4.1",
+    "@storybook/vue3-webpack5": "7.4.1",
     "@vitejs/plugin-vue": "^4.2.3",
+    "@vue/compiler-sfc": "3.3.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "storybook": "7.4.1",
     "typescript": "^5.0.2",
     "vite": "^4.4.5",
+    "vue-loader": "17.2.2",
     "vue-tsc": "^1.8.5"
   }
 }
