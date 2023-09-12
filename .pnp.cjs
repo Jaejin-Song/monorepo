@@ -4578,6 +4578,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@vitejs/plugin-vue", "virtual:1aabadb74f42a98d2d5dce78e733445cdec6f9efec66904ee14249811c01fec3e83179aa1fc48c1fdd96cb59ffa3b4666e0fbecce81e38d581cc9fe8471982a6#npm:4.3.4"],\
             ["@vue/compiler-sfc", "npm:3.3.4"],\
             ["ant-design-vue", "virtual:1aabadb74f42a98d2d5dce78e733445cdec6f9efec66904ee14249811c01fec3e83179aa1fc48c1fdd96cb59ffa3b4666e0fbecce81e38d581cc9fe8471982a6#npm:4.0.3"],\
+            ["chromatic", "npm:7.1.0"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:1aabadb74f42a98d2d5dce78e733445cdec6f9efec66904ee14249811c01fec3e83179aa1fc48c1fdd96cb59ffa3b4666e0fbecce81e38d581cc9fe8471982a6#npm:18.2.0"],\
             ["storybook", "npm:7.4.1"],\
@@ -9127,6 +9128,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/chownr-npm-2.0.0-638f1c9c61-c57cf9dd07.zip/node_modules/chownr/",\
           "packageDependencies": [\
             ["chownr", "npm:2.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["chromatic", [\
+        ["npm:7.1.0", {\
+          "packageLocation": "./.yarn/cache/chromatic-npm-7.1.0-ee5fc1c626-0b94841986.zip/node_modules/chromatic/",\
+          "packageDependencies": [\
+            ["chromatic", "npm:7.1.0"]\
           ],\
           "linkType": "HARD"\
         }]\
