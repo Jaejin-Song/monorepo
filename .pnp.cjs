@@ -41,6 +41,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@vue/compiler-core", "npm:3.3.4"],\
             ["eslint", "npm:8.49.0"],\
             ["prettier", "npm:3.0.3"],\
+            ["sass", "npm:1.66.1"],\
             ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"]\
           ],\
           "linkType": "SOFT"\
@@ -93,10 +94,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:aa39a56654774f6af6e49728934b796161f5b08ef34b030640b6de6ecc3b0051390ac3505e51c4dd6785a357d424e2167669322ac6335bfefd1e878a13eeb027#npm:7.0.0", {\
-          "packageLocation": "./.yarn/__virtual__/@ant-design-icons-vue-virtual-969496f7b1/0/cache/@ant-design-icons-vue-npm-7.0.0-75e581949a-9947645f70.zip/node_modules/@ant-design/icons-vue/",\
+        ["virtual:1aabadb74f42a98d2d5dce78e733445cdec6f9efec66904ee14249811c01fec3e83179aa1fc48c1fdd96cb59ffa3b4666e0fbecce81e38d581cc9fe8471982a6#npm:7.0.0", {\
+          "packageLocation": "./.yarn/__virtual__/@ant-design-icons-vue-virtual-dafafe9cd5/0/cache/@ant-design-icons-vue-npm-7.0.0-75e581949a-9947645f70.zip/node_modules/@ant-design/icons-vue/",\
           "packageDependencies": [\
-            ["@ant-design/icons-vue", "virtual:aa39a56654774f6af6e49728934b796161f5b08ef34b030640b6de6ecc3b0051390ac3505e51c4dd6785a357d424e2167669322ac6335bfefd1e878a13eeb027#npm:7.0.0"],\
+            ["@ant-design/icons-vue", "virtual:1aabadb74f42a98d2d5dce78e733445cdec6f9efec66904ee14249811c01fec3e83179aa1fc48c1fdd96cb59ffa3b4666e0fbecce81e38d581cc9fe8471982a6#npm:7.0.0"],\
             ["@ant-design/colors", "npm:6.0.0"],\
             ["@ant-design/icons-svg", "npm:4.3.1"],\
             ["@types/vue", null],\
@@ -4566,6 +4567,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./package/component/",\
           "packageDependencies": [\
             ["@monorepo/component", "workspace:package/component"],\
+            ["@ant-design/icons-vue", "virtual:1aabadb74f42a98d2d5dce78e733445cdec6f9efec66904ee14249811c01fec3e83179aa1fc48c1fdd96cb59ffa3b4666e0fbecce81e38d581cc9fe8471982a6#npm:7.0.0"],\
             ["@babel/preset-env", "virtual:1aabadb74f42a98d2d5dce78e733445cdec6f9efec66904ee14249811c01fec3e83179aa1fc48c1fdd96cb59ffa3b4666e0fbecce81e38d581cc9fe8471982a6#npm:7.22.15"],\
             ["@babel/preset-typescript", "virtual:1aabadb74f42a98d2d5dce78e733445cdec6f9efec66904ee14249811c01fec3e83179aa1fc48c1fdd96cb59ffa3b4666e0fbecce81e38d581cc9fe8471982a6#npm:7.22.15"],\
             ["@storybook/addon-essentials", "virtual:1aabadb74f42a98d2d5dce78e733445cdec6f9efec66904ee14249811c01fec3e83179aa1fc48c1fdd96cb59ffa3b4666e0fbecce81e38d581cc9fe8471982a6#npm:7.4.1"],\
@@ -4581,6 +4583,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["chromatic", "npm:7.1.0"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:1aabadb74f42a98d2d5dce78e733445cdec6f9efec66904ee14249811c01fec3e83179aa1fc48c1fdd96cb59ffa3b4666e0fbecce81e38d581cc9fe8471982a6#npm:18.2.0"],\
+            ["sass", "npm:1.66.1"],\
             ["storybook", "npm:7.4.1"],\
             ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"],\
             ["vite", "virtual:1aabadb74f42a98d2d5dce78e733445cdec6f9efec66904ee14249811c01fec3e83179aa1fc48c1fdd96cb59ffa3b4666e0fbecce81e38d581cc9fe8471982a6#npm:4.4.9"],\
@@ -7449,6 +7452,23 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             "vue"\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["virtual:f90d883af62837761bf319fb452bc09592ce61df5b55a0003eb6abc10b3654f67d356d3827c55d026327f52a10953fe9aa4acdbd8b30886939e19e90f9ae4b83#npm:4.3.4", {\
+          "packageLocation": "./.yarn/__virtual__/@vitejs-plugin-vue-virtual-29fbe9e890/0/cache/@vitejs-plugin-vue-npm-4.3.4-0e0b5c48a9-95bf6c85c0.zip/node_modules/@vitejs/plugin-vue/",\
+          "packageDependencies": [\
+            ["@vitejs/plugin-vue", "virtual:f90d883af62837761bf319fb452bc09592ce61df5b55a0003eb6abc10b3654f67d356d3827c55d026327f52a10953fe9aa4acdbd8b30886939e19e90f9ae4b83#npm:4.3.4"],\
+            ["@types/vite", null],\
+            ["@types/vue", null],\
+            ["vite", "virtual:f90d883af62837761bf319fb452bc09592ce61df5b55a0003eb6abc10b3654f67d356d3827c55d026327f52a10953fe9aa4acdbd8b30886939e19e90f9ae4b83#npm:4.4.9"],\
+            ["vue", "npm:3.3.4"]\
+          ],\
+          "packagePeers": [\
+            "@types/vite",\
+            "@types/vue",\
+            "vite",\
+            "vue"\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["@volar/language-core", [\
@@ -8197,7 +8217,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["ant-design-vue", "virtual:1aabadb74f42a98d2d5dce78e733445cdec6f9efec66904ee14249811c01fec3e83179aa1fc48c1fdd96cb59ffa3b4666e0fbecce81e38d581cc9fe8471982a6#npm:4.0.3"],\
             ["@ant-design/colors", "npm:6.0.0"],\
-            ["@ant-design/icons-vue", "virtual:aa39a56654774f6af6e49728934b796161f5b08ef34b030640b6de6ecc3b0051390ac3505e51c4dd6785a357d424e2167669322ac6335bfefd1e878a13eeb027#npm:7.0.0"],\
+            ["@ant-design/icons-vue", "virtual:1aabadb74f42a98d2d5dce78e733445cdec6f9efec66904ee14249811c01fec3e83179aa1fc48c1fdd96cb59ffa3b4666e0fbecce81e38d581cc9fe8471982a6#npm:7.0.0"],\
             ["@babel/runtime", "npm:7.22.15"],\
             ["@ctrl/tinycolor", "npm:3.6.1"],\
             ["@emotion/hash", "npm:0.9.1"],\
@@ -8777,9 +8797,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["biz1", "workspace:package/biz1"],\
             ["@monorepo/component", "workspace:package/component"],\
-            ["@vitejs/plugin-vue", "virtual:1aabadb74f42a98d2d5dce78e733445cdec6f9efec66904ee14249811c01fec3e83179aa1fc48c1fdd96cb59ffa3b4666e0fbecce81e38d581cc9fe8471982a6#npm:4.3.4"],\
+            ["@vitejs/plugin-vue", "virtual:f90d883af62837761bf319fb452bc09592ce61df5b55a0003eb6abc10b3654f67d356d3827c55d026327f52a10953fe9aa4acdbd8b30886939e19e90f9ae4b83#npm:4.3.4"],\
             ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"],\
-            ["vite", "virtual:1aabadb74f42a98d2d5dce78e733445cdec6f9efec66904ee14249811c01fec3e83179aa1fc48c1fdd96cb59ffa3b4666e0fbecce81e38d581cc9fe8471982a6#npm:4.4.9"],\
+            ["vite", "virtual:f90d883af62837761bf319fb452bc09592ce61df5b55a0003eb6abc10b3654f67d356d3827c55d026327f52a10953fe9aa4acdbd8b30886939e19e90f9ae4b83#npm:4.4.9"],\
             ["vue", "npm:3.3.4"],\
             ["vue-tsc", "virtual:1aabadb74f42a98d2d5dce78e733445cdec6f9efec66904ee14249811c01fec3e83179aa1fc48c1fdd96cb59ffa3b4666e0fbecce81e38d581cc9fe8471982a6#npm:1.8.10"]\
           ],\
@@ -11736,6 +11756,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["immutable", [\
+        ["npm:4.3.4", {\
+          "packageLocation": "./.yarn/cache/immutable-npm-4.3.4-2f54cf641b-de3edd964c.zip/node_modules/immutable/",\
+          "packageDependencies": [\
+            ["immutable", "npm:4.3.4"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["import-fresh", [\
         ["npm:3.3.0", {\
           "packageLocation": "./.yarn/cache/import-fresh-npm-3.3.0-3e34265ca9-2cacfad06e.zip/node_modules/import-fresh/",\
@@ -13408,6 +13437,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@vue/compiler-core", "npm:3.3.4"],\
             ["eslint", "npm:8.49.0"],\
             ["prettier", "npm:3.0.3"],\
+            ["sass", "npm:1.66.1"],\
             ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"]\
           ],\
           "linkType": "SOFT"\
@@ -15380,6 +15410,18 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["sass", [\
+        ["npm:1.66.1", {\
+          "packageLocation": "./.yarn/cache/sass-npm-1.66.1-563acb4a8f-74fc11d0fc.zip/node_modules/sass/",\
+          "packageDependencies": [\
+            ["sass", "npm:1.66.1"],\
+            ["chokidar", "npm:3.5.3"],\
+            ["immutable", "npm:4.3.4"],\
+            ["source-map-js", "npm:1.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["scheduler", [\
         ["npm:0.23.0", {\
           "packageLocation": "./.yarn/cache/scheduler-npm-0.23.0-a379a6bc3b-d79192eeaa.zip/node_modules/scheduler/",\
@@ -16928,6 +16970,45 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/__virtual__/vite-virtual-a3646e3f97/0/cache/vite-npm-4.4.9-e845c1bbf8-c511024cea.zip/node_modules/vite/",\
           "packageDependencies": [\
             ["vite", "virtual:1aabadb74f42a98d2d5dce78e733445cdec6f9efec66904ee14249811c01fec3e83179aa1fc48c1fdd96cb59ffa3b4666e0fbecce81e38d581cc9fe8471982a6#npm:4.4.9"],\
+            ["@types/less", null],\
+            ["@types/lightningcss", null],\
+            ["@types/node", null],\
+            ["@types/sass", null],\
+            ["@types/stylus", null],\
+            ["@types/sugarss", null],\
+            ["@types/terser", null],\
+            ["esbuild", "npm:0.18.20"],\
+            ["fsevents", "patch:fsevents@npm%3A2.3.3#~builtin<compat/fsevents>::version=2.3.3&hash=df0bf1"],\
+            ["less", null],\
+            ["lightningcss", null],\
+            ["postcss", "npm:8.4.29"],\
+            ["rollup", "npm:3.29.1"],\
+            ["sass", "npm:1.66.1"],\
+            ["stylus", null],\
+            ["sugarss", null],\
+            ["terser", null]\
+          ],\
+          "packagePeers": [\
+            "@types/less",\
+            "@types/lightningcss",\
+            "@types/node",\
+            "@types/sass",\
+            "@types/stylus",\
+            "@types/sugarss",\
+            "@types/terser",\
+            "less",\
+            "lightningcss",\
+            "sass",\
+            "stylus",\
+            "sugarss",\
+            "terser"\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["virtual:f90d883af62837761bf319fb452bc09592ce61df5b55a0003eb6abc10b3654f67d356d3827c55d026327f52a10953fe9aa4acdbd8b30886939e19e90f9ae4b83#npm:4.4.9", {\
+          "packageLocation": "./.yarn/__virtual__/vite-virtual-89f7b67a08/0/cache/vite-npm-4.4.9-e845c1bbf8-c511024cea.zip/node_modules/vite/",\
+          "packageDependencies": [\
+            ["vite", "virtual:f90d883af62837761bf319fb452bc09592ce61df5b55a0003eb6abc10b3654f67d356d3827c55d026327f52a10953fe9aa4acdbd8b30886939e19e90f9ae4b83#npm:4.4.9"],\
             ["@types/less", null],\
             ["@types/lightningcss", null],\
             ["@types/node", null],\
