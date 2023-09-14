@@ -1,4 +1,12 @@
 <template>
+  <d-button>Button Title</d-button>
+
+  <br>
+  <br>
+  <span class="test">test color</span>
+  <br>
+  <br>
+
   <Table :columns="columns" :data-source="data">
     <template #headerCell="{ column }">
       <template v-if="column.key === 'name'">
@@ -10,10 +18,7 @@
       <template v-if="column.key === 'action'">
         <UploadDragger>
           <p class="ant-upload-drag-icon">
-            <inbox-outlined
-              :style="{ fontSize: '18px' }"
-              class="icon-test"
-            ></inbox-outlined>
+            <inbox-outlined :style="{ fontSize: '18px' }" class="icon-test"></inbox-outlined>
           </p>
         </UploadDragger>
       </template>

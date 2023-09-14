@@ -1,0 +1,60 @@
+$vc-primary-color: #635bff;
+$st-primary-color: #00cb95;
+
+// System
+$system-error-color: #f25a5f;
+$system-warning-color: #ffba31;
+$system-success-color: #00ab62;
+$system-info-color: #3366ff;
+
+// Background
+$background-01: #ffffff;
+$background-02: #f8f9fa;
+$background-03: #343a40;
+$background-dim-01: rgba(0, 0, 0, 0.8);
+$background-dim-02: rgba(0, 0, 0, 0.5);
+$background-vc: #eef2ff;
+$background-st: #eff9f5;
+
+// Text
+$text-primary-color: #212529;
+$text-secondary-color: #343a40;
+$text-tertiary-color: #495057;
+$text-quatenary-color: #868e96;
+$text-disabled-color: #adb5bd;
+$text-placeholder-color: #adb5bd;
+$text-on-color-color: #ffffff;
+$text-vc-color: $vc-primary-color;
+$text-st-color: $st-primary-color;
+
+// Divider
+$divider-01-color: #dee2e6;
+$divider-02-color: #e9ecef;
+
+// Icon
+$icon-primary-color: #495057;
+$icon-secondary-color: #868e96;
+$icon-on-color: #ffffff;
+$icon-disabled-text-color: #adb5bd;
+$icon-vc-color: $vc-primary-color;
+$icon-st-color: $st-primary-color;
+
+// Button
+$btn-vc-default-color: $vc-primary-color;
+$btn-vc-hover-color: #4f48cc;
+$btn-vc-pressed-color: #4f48cc;
+$btn-vc-disabled-color: #dee2e6;
+
+$btn-st-default-color: $st-primary-color;
+$btn-st-hover-color: #10bb8e;
+$btn-st-pressed-color: #10bb8e;
+$btn-st-disabled-color: #dee2e6;
+
+$btn-secondary-default-color: #ffffff;
+$btn-st-hover-color: #f1f3f5;
+$btn-st-pressed-color: #f1f3f5;
+$btn-st-disabled-color: #dee2e6;
+
+.test {
+  color: $vc-primary-color;
+}

@@ -1,4 +1,10 @@
 import { createApp } from "vue";
 import App from "./App.vue";
 
-createApp(App).mount("#app");
+import { install } from ".";
+import "./design/index.scss";
+
+const app = createApp(App);
+
+app.use(install);
+app.mount("#app");
