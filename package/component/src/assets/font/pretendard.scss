@@ -1,0 +1,29 @@
+@mixin font-face($name, $file, $weight) {
+  @font-face {
+    font-family: "#{$name}";
+
+    src: url("./Pretendard/Pretendard-#{$file}.woff2") format("woff2");
+
+    font-weight: $weight;
+
+    font-style: normal;
+  }
+}
+
+@include font-face("Pretendard", "Black", 900);
+@include font-face("Pretendard", "ExtraBold", 800);
+@include font-face("Pretendard", "Bold", 700);
+@include font-face("Pretendard", "SemiBold", 600);
+@include font-face("Pretendard", "Medium", 500);
+@include font-face("Pretendard", "Regular", 400);
+@include font-face("Pretendard", "Light", 300);
+@include font-face("Pretendard", "ExtraLight", 200);
+@include font-face("Pretendard", "Thin", 100);
+
+// @font-face {
+//   font-family: "Pretendard";
+//   font-weight: 900;
+//   src:
+//     local("Pretendard Black"),
+//     url("./Pretendard/Pretendard-Black.woff2") format("woff2");
+// }

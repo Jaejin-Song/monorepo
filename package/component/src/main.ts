@@ -2,7 +2,7 @@ import { createApp } from "vue";
 import App from "./App.vue";
 
 import { install } from ".";
-import "./design/index.scss";
+import "./assets/index.scss";
 
 const app = createApp(App);
 

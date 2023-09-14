@@ -2,8 +2,9 @@
   <d-button>Button Title</d-button>
 
   <br>
+  <span class="test">세상에 이런 폰트가 나오다니 천재인듯</span>
   <br>
-  <span class="test">test color</span>
+  <span class="test test-font">세상에 이런 폰트가 나오다니 천재인듯</span>
   <br>
   <br>
 
@@ -86,5 +87,10 @@ const data = [
 
 .ant-upload-drag-icon {
   margin: 8px !important;
+}
+
+.test-font {
+  font-family: Pretendard;
+  font-weight: 900;
 }
 </style>
