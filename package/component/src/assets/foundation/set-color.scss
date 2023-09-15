@@ -51,11 +51,27 @@ $btn-st-pressed-color: #10bb8e;
 $btn-st-disabled-color: #dee2e6;
 
 $btn-secondary-default-color: #ffffff;
-$btn-st-hover-color: #f1f3f5;
-$btn-st-pressed-color: #f1f3f5;
-$btn-st-disabled-color: #dee2e6;
+$btn-secondary-hover-color: #f1f3f5;
+$btn-secondary-pressed-color: #f1f3f5;
+$btn-secondary-disabled-color: #dee2e6;
 
-.test {
-  color: $vc-primary-color;
-  font-size: 24px;
-}
+$config: (
+  vc: (
+    background-theme: $background-vc,
+    text-theme-color: $text-vc-color,
+    icon-theme-color: $icon-vc-color,
+    btn-theme-default-color: $btn-vc-default-color,
+    btn-theme-hover-color: $btn-vc-hover-color,
+    btn-theme-pressed-color: $btn-vc-pressed-color,
+    btn-theme-disabled-color: $btn-vc-disabled-color,
+  ),
+  st: (
+    background-theme: $background-st,
+    text-theme-color: $text-st-color,
+    icon-theme-color: $icon-st-color,
+    btn-theme-default-color: $btn-st-default-color,
+    btn-theme-hover-color: $btn-st-default-color,
+    btn-theme-pressed-color: $btn-st-default-color,
+    btn-theme-disabled-color: $btn-st-default-color,
+  ),
+);

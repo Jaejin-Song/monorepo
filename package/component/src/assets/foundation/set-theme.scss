@@ -1,0 +1,29 @@
+@use "./set-color.scss" as *;
+
+@function setColor($map, $object, $style) {
+  @if map-has-key($map, $object) {
+    @return map-get(map-get($map, $object), $style);
+  }
+  @warn "The key ´#{$object} is not available in the map.";
+  @return null;
+}
+
+@mixin setTheme($key) {
+  --background-theme: #{setColor($config, $key, background-theme)};
+  --text-theme-color: #{setColor($config, $key, text-theme-color)};
+  --icon-theme-color: #{setColor($config, $key, icon-theme-color)};
+  --btn-theme-default-color: #{setColor($config, $key, btn-theme-default-color)};
+  --btn-theme-hover-color: #{setColor($config, $key, btn-theme-hover-color)};
+  --btn-theme-pressed-color: #{setColor($config, $key, btn-theme-pressed-color)};
+  --btn-theme-disabled-color: #{setColor(
+      $config,
+      $key,
+      btn-theme-disabled-color
+    )};
+}
+
+@each $theme in vc, st {
+  html.#{$theme}-theme {
+    @include setTheme($theme);
+  }
+}
