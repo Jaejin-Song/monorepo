@@ -25,9 +25,11 @@
       </template>
     </template>
   </Table>
+
+  <PageHeader style="border: 1px solid rgb(235, 237, 240)" title="test Title" sub-title="This is a subtitle" />
 </template>
 <script lang="ts" setup>
-import { Table, UploadDragger } from "ant-design-vue";
+import { Table, UploadDragger, PageHeader } from "ant-design-vue";
 import { InboxOutlined } from "@ant-design/icons-vue";
 const columns = [
   {
