@@ -2,9 +2,9 @@
   <d-button>Button Title</d-button>
 
   <br>
-  <span class="test">세상에 이런 폰트가 나오다니 천재인듯</span>
+  <span class="header-01">세상에 이런 폰트가 나오다니 천재인듯</span>
   <br>
-  <span class="test test-font">세상에 이런 폰트가 나오다니 천재인듯</span>
+  <span class="header-03">세상에 이런 폰트가 나오다니 천재인듯</span>
   <br>
   <br>
 
@@ -91,8 +91,9 @@ const data = [
   margin: 8px !important;
 }
 
-.test-font {
-  font-family: Pretendard;
-  font-weight: 900;
-}
+// .test {
+//   font-family: Pretendard;
+//   font-weight: 900;
+//   font-size: 32px;
+// }
 </style>
