@@ -1,6 +1,7 @@
-@use "./set-theme.scss";
-@use "../font/pretendard.scss";
-@use "./typography.scss";
+@use "./set-theme.scss" as *;
+@use "../font/pretendard.scss" as *;
+@use "../font/pretendard.scss" as *;
+@use "./typography.scss" as *;
 
 html,
 body {
@@ -14,3 +15,7 @@ body {
   font-weight: 900;
   font-size: 32px;
 }
+
+// .test2 {
+//   color: var(--system-error-color);
+// }

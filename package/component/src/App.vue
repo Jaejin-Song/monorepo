@@ -1,12 +1,12 @@
 <template>
   <d-button>Button Title</d-button>
 
-  <br>
-  <span class="header-01">세상에 이런 폰트가 나오다니 천재인듯</span>
-  <br>
+  <br />
+  <span class="header-01 test2">세상에 이런 폰트가 나오다니 천재인듯</span>
+  <br />
   <span class="header-03">세상에 이런 폰트가 나오다니 천재인듯</span>
-  <br>
-  <br>
+  <br />
+  <br />
 
   <Table :columns="columns" :data-source="data">
     <template #headerCell="{ column }">
@@ -19,14 +19,21 @@
       <template v-if="column.key === 'action'">
         <UploadDragger>
           <p class="ant-upload-drag-icon">
-            <inbox-outlined :style="{ fontSize: '18px' }" class="icon-test"></inbox-outlined>
+            <inbox-outlined
+              :style="{ fontSize: '18px' }"
+              class="icon-test"
+            ></inbox-outlined>
           </p>
         </UploadDragger>
       </template>
     </template>
   </Table>
 
-  <PageHeader style="border: 1px solid rgb(235, 237, 240)" title="test Title" sub-title="This is a subtitle" />
+  <PageHeader
+    style="border: 1px solid rgb(235, 237, 240)"
+    title="test Title"
+    sub-title="This is a subtitle"
+  />
 </template>
 <script lang="ts" setup>
 import { Table, UploadDragger, PageHeader } from "ant-design-vue";
@@ -89,6 +96,10 @@ const data = [
 
 .ant-upload-drag-icon {
   margin: 8px !important;
+}
+
+.test2 {
+  color: var(--system-error-color);
 }
 
 // .test {

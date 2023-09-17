@@ -9,9 +9,42 @@
 }
 
 @mixin setTheme($key) {
+  // System
+  --system-error-color: #{$system-error-color};
+  --system-warning-color: #{$system-warning-color};
+  --system-success-color: #{$system-success-color};
+  --system-info-color: #{$system-info-color};
+
+  // Background
+  --background-01-color: #{$background-01};
+  --background-02-color: #{$background-02};
+  --background-03-color: #{$background-03};
+  --background-dim-01-color: #{$background-dim-01};
+  --background-dim-02-color: #{$background-dim-02};
   --background-theme: #{setColor($config, $key, background-theme)};
+
+  // Text
+  --text-primary-color: #{$text-primary-color};
+  --text-secondary-color: #{$text-secondary-color};
+  --text-tertiary-color: #{$text-tertiary-color};
+  --text-quatenary-color: #{$text-quatenary-color};
+  --text-disabled-color: #{$text-disabled-color};
+  --text-placeholder-color: #{$text-placeholder-color};
+  --text-on-color-color: #{$text-on-color-color};
   --text-theme-color: #{setColor($config, $key, text-theme-color)};
+
+  // Divider
+  --divider-01-color: #{$divider-01-color};
+  --divider-02-color: #{$divider-02-color};
+
+  // Icon
+  --icon-primary-color: #{$icon-primary-color};
+  --icon-secondary-color: #{$icon-secondary-color};
+  --icon-on-color-color: #{$icon-on-color-color};
+  --icon-disabled-text-color: #{$icon-disabled-text-color};
   --icon-theme-color: #{setColor($config, $key, icon-theme-color)};
+
+  // Button
   --btn-theme-default-color: #{setColor($config, $key, btn-theme-default-color)};
   --btn-theme-hover-color: #{setColor($config, $key, btn-theme-hover-color)};
   --btn-theme-pressed-color: #{setColor($config, $key, btn-theme-pressed-color)};
@@ -20,6 +53,11 @@
       $key,
       btn-theme-disabled-color
     )};
+
+  --btn-secondary-default-color: #{$btn-secondary-default-color};
+  --btn-secondary-hover-color: #{$btn-secondary-hover-color};
+  --btn-secondary-pressed-color: #{$btn-secondary-pressed-color};
+  --btn-secondary-disabled-color: #{$btn-secondary-disabled-color};
 }
 
 @each $theme in vc, st {
