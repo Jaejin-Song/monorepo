@@ -99,6 +99,8 @@ const data = [
 }
 
 .test2 {
+  // font-family: Pretendard;
+  // font-weight: 900;
   color: var(--system-error-color);
 }
 

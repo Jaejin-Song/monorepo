@@ -2,7 +2,9 @@
   @font-face {
     font-family: "#{$name}";
 
-    src: url("./Pretendard/Pretendard-#{$file}.woff2") format("woff2");
+    src:
+      local("Pretendard #{$file}"),
+      url("./Pretendard/Pretendard-#{$file}.woff2") format("woff2");
 
     font-weight: $weight;
 
@@ -19,11 +21,3 @@
 @include font-face("Pretendard", "Light", 300);
 @include font-face("Pretendard", "ExtraLight", 200);
 @include font-face("Pretendard", "Thin", 100);
-
-// @font-face {
-//   font-family: "Pretendard";
-//   font-weight: 900;
-//   src:
-//     local("Pretendard Black"),
-//     url("./Pretendard/Pretendard-Black.woff2") format("woff2");
-// }
