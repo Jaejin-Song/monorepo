@@ -1,5 +1,19 @@
 <template>
-  <d-button>Button Title</d-button>
+  <div class="test-box">
+    <div>
+      <d-button type="text" size="small">Button Title</d-button>
+      <d-button type="text" size="small" disabled>Button Title</d-button>
+    </div>
+    <div>
+      <d-button type="text" size="middle">Button Title</d-button>
+      <d-button type="text" size="middle" disabled>Button Title</d-button>
+      <d-button type="primary" size="middle">Button Title</d-button>
+    </div>
+    <div>
+      <d-button type="text" size="large">Button Title</d-button>
+      <d-button type="text" size="large" disabled>Button Title</d-button>
+    </div>
+  </div>
 
   <br />
   <span class="header-01 test2">세상에 이런 폰트가 나오다니 천재인듯</span>
@@ -19,21 +33,14 @@
       <template v-if="column.key === 'action'">
         <UploadDragger>
           <p class="ant-upload-drag-icon">
-            <inbox-outlined
-              :style="{ fontSize: '18px' }"
-              class="icon-test"
-            ></inbox-outlined>
+            <inbox-outlined :style="{ fontSize: '18px' }" class="icon-test"></inbox-outlined>
           </p>
         </UploadDragger>
       </template>
     </template>
   </Table>
 
-  <PageHeader
-    style="border: 1px solid rgb(235, 237, 240)"
-    title="test Title"
-    sub-title="This is a subtitle"
-  />
+  <PageHeader style="border: 1px solid rgb(235, 237, 240)" title="test Title" sub-title="This is a subtitle" />
 </template>
 <script lang="ts" setup>
 import { Table, UploadDragger, PageHeader } from "ant-design-vue";
@@ -90,6 +97,12 @@ const data = [
 ];
 </script>
 <style lang="scss">
+.test-box {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
 .ant-upload .ant-upload-btn {
   padding: 0px !important;
 }

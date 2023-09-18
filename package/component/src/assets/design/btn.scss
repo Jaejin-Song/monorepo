@@ -1,0 +1,134 @@
+@use "../foundation/set-typography.scss" as *;
+
+.d-component.ant-btn {
+  border-radius: var(--radius-04);
+  &-primary {
+    background-color: var(--btn-theme-default-color);
+    color: var(--text-on-color-color);
+    border: none;
+
+    &:hover {
+      background-color: var(--btn-theme-hover-color);
+      color: var(--text-on-color-color);
+    }
+
+    &:focus {
+      background-color: var(--btn-theme-pressed-color);
+      color: var(--text-on-color-color);
+    }
+
+    &[disabled] {
+      background-color: var(--btn-theme-disabled-color);
+      color: var(--text-disabled-color);
+    }
+  }
+
+  &-default {
+    background-color: var(--btn-secondary-default-color);
+    color: var(--text-primary-color);
+    border: 1px solid var(--divider-01-color);
+
+    &:hover {
+      background-color: var(--btn-secondary-hover-color);
+      color: var(--text-primary-color);
+      border: 1px solid var(--divider-01-color);
+    }
+
+    &:focus {
+      background-color: var(--btn-secondary-pressed-color);
+      color: var(--text-primary-color);
+      border: 1px solid var(--divider-01-color);
+    }
+
+    &[disabled] {
+      background-color: var(--btn-secondary-disabled-color);
+      color: var(--text-disabled-color);
+    }
+  }
+
+  &-error {
+    background-color: var(--system-error-color);
+    color: var(--text-on-color-color);
+    border: none;
+
+    &:hover {
+      background-color: #a93e42;
+      color: var(--text-on-color-color);
+    }
+
+    &:focus {
+      background-color: #a93e42;
+      color: var(--text-on-color-color);
+    }
+
+    &[disabled] {
+      background-color: var(--btn-secondary-disabled-color);
+      color: var(--text-disabled-color);
+    }
+
+    &.ant-btn-sm {
+      @include header-01;
+      background-color: var(--btn-secondary-default-color);
+      color: var(--system-error-color);
+
+      &:hover,
+      &:focus {
+        background-color: var(--system-error-color);
+        color: var(--text-on-color-color);
+      }
+      &[disabled] {
+        background-color: var(--btn-theme-disabled-color);
+        color: var(--text-disabled-color);
+      }
+    }
+  }
+
+  &-text {
+    &.ant-btn-lg {
+      @include body-short-01;
+      padding: var(--spacing-02) var(--spacing-03);
+      min-width: auto;
+      height: 30px;
+    }
+  }
+
+  &-link {
+    background-color: transparent;
+    color: var(--system-info-color);
+    border: none;
+
+    > span {
+      @include link;
+    }
+
+    &:hover,
+    &:focus {
+      background-color: var(--btn-secondary-hover-color);
+      color: var(--system-info-color);
+    }
+
+    &[disabled] {
+      color: var(--text-disabled-color);
+    }
+  }
+
+  &-sm {
+    @include body-short-02;
+    padding: var(--spacing-02) var(--radius-04);
+    height: 29px;
+    border-radius: var(--radius-03);
+  }
+
+  @include header-01;
+  padding: var(--spacing-03) var(--spacing-04);
+  height: 39px;
+  border-radius: var(--radius-04);
+
+  &-lg {
+    @include header-02;
+    padding: var(--spacing-03) var(--spacing-04);
+    border-radius: var(--radius-05);
+    min-width: 320px;
+    max-height: 48px;
+  }
+}

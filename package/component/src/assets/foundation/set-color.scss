@@ -70,8 +70,8 @@ $config: (
     text-theme-color: $text-st-color,
     icon-theme-color: $icon-st-color,
     btn-theme-default-color: $btn-st-default-color,
-    btn-theme-hover-color: $btn-st-default-color,
-    btn-theme-pressed-color: $btn-st-default-color,
-    btn-theme-disabled-color: $btn-st-default-color,
+    btn-theme-hover-color: $btn-st-hover-color,
+    btn-theme-pressed-color: $btn-st-pressed-color,
+    btn-theme-disabled-color: $btn-st-disabled-color,
   ),
 );

@@ -1,0 +1,66 @@
+@mixin header-01 {
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+  font-weight: 700;
+}
+@mixin header-02 {
+  font-size: 1rem;
+  line-height: 1.4rem;
+  font-weight: 700;
+}
+@mixin header-03 {
+  font-size: 1.25rem;
+  line-height: 1.8rem;
+  font-weight: 700;
+}
+@mixin header-04 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+}
+@mixin body-short-01 {
+  font-size: 1rem;
+  line-height: 1.4rem;
+  font-weight: 400;
+}
+@mixin body-short-02 {
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+  font-weight: 400;
+}
+@mixin body-short-03 {
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+  font-weight: 500;
+}
+@mixin body-long-01 {
+  font-size: 1rem;
+  line-height: 1.8rem;
+  font-weight: 400;
+}
+@mixin body-long-02 {
+  font-size: 0.9rem;
+  line-height: 1.6rem;
+  font-weight: 400;
+}
+@mixin disclaimer {
+  font-size: 0.8rem;
+  line-height: 1.1rem;
+  font-weight: 400;
+}
+@mixin helper {
+  font-size: 0.8rem;
+  line-height: 0.75rem;
+  font-weight: 400;
+}
+@mixin link {
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+  font-weight: 400;
+  text-decoration: underline;
+}
+@mixin overline {
+  font-size: 0.625rem;
+  line-height: 0.625rem;
+  font-weight: 400;
+}
